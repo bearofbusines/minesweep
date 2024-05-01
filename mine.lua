@@ -1,29 +1,4 @@
-print('welcome to minesweeper')
---setup
-bomb=0
-a = {}
-b = {}
-c = {}
-d = {}
-e = {}
-f = {}
-g = {}
-h = {}
-i = {}
-board={a,b,c,d,e,f,g,h,i}
-j = {}
-k = {}
-l = {}
-m = {}
-n = {}
-o = {}
-p = {}
-q = {}
-r = {}
-boardf={j,k,l,m,n,o,p,q,r}
 --functions
-
-
 function random()
 	ramd=os.clock()
 	tempramd=ramd
@@ -175,6 +150,28 @@ function winc()
 	end
 end
 
+--setup
+bomb=0
+a = {}
+b = {}
+c = {}
+d = {}
+e = {}
+f = {}
+g = {}
+h = {}
+i = {}
+board={a,b,c,d,e,f,g,h,i}
+j = {}
+k = {}
+l = {}
+m = {}
+n = {}
+o = {}
+p = {}
+q = {}
+r = {}
+boardf={j,k,l,m,n,o,p,q,r}
 
 for i=1,9,1 do
 	col = i 
@@ -186,7 +183,7 @@ end
 
 lbn()
 
-
+print('welcome to minesweeper')
 while 1==1 do
 	boardDispf()
 	boardAppendf(userx(),usery(),boardRead(x,y))
